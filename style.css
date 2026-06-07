@@ -329,7 +329,7 @@ a { text-decoration: none; color: inherit; }
   background: rgba(245,200,66,0.1); border: 1px solid rgba(245,200,66,0.3);
   color: var(--gold); font-size: 0.8rem; font-weight: 700; margin-bottom: 1.5rem;
 }
-.flagship-content { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+.flagship-content { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: start; }
 .flagship-text h3 { font-size: 1.5rem; font-weight: 800; margin-bottom: 1rem; }
 .flagship-text p { color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.7; }
 .flagship-features { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.5rem; }
@@ -341,6 +341,9 @@ a { text-decoration: none; color: inherit; }
   background: rgba(124,106,247,0.1); border: 1px solid rgba(124,106,247,0.3);
   font-size: 0.75rem; color: var(--accent); font-weight: 600;
 }
+.flagship-link { margin-top: 1.5rem; }
+.flagship-link p { margin-bottom: 1rem; color: var(--text-muted); }
+.flagship-link .btn-primary { display: inline-flex; }
 .visual-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;
 }
